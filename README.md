@@ -9,7 +9,7 @@ I recently built a full voice integration lab combining:
 
 The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication between Webex Calling and the PSTN via Twilio.  
 
-## Reference Guides
+### Reference Guides
 
 Here are some helpful references for this project:
 
