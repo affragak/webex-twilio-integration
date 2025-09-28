@@ -194,6 +194,56 @@ voice class sip-profiles 200
  response ANY sip-header Contact modify "@.*:" "@192.65.79.20:"
 !
 
+
+## SIP config
+
+!
+voice class uri 100 sip
+ pattern cube1.example.com:5062
+!
+voice class uri 200 sip
+ pattern cube1.example.com:5061
+!
+voice class codec 100
+ codec preference 1 g711ulaw
+ codec preference 2 g711alaw
+!
+voice class codec 200
+ codec preference 1 g711ulaw
+ codec preference 2 g711alaw
+!
+voice class stun-usage 100
+ stun usage firewall-traversal flowdata
+ stun usage ice lite
+!
+voice class dpg 100
+ description TWILIO PSTN to Webex Calling
+ dial-peer 100
+!
+voice class dpg 200
+ description Webex Calling to TWILIO PSTN
+ dial-peer 200
+!
+voice class sip-options-keepalive 100
+ description Keepalive for Webex Calling
+ up-interval 5
+ transport tcp tls
+ sip-profiles 115
+!
+voice class sip-options-keepalive 200
+ description Keepalive for Twilio Calling
+ up-interval 5
+ transport tcp tls
+ sip-profiles 115
+!
+!
+voice class srtp-crypto 100
+ crypto 1 AES_CM_128_HMAC_SHA1_80
+!
+voice class srtp-crypto 200
+ crypto 1 AES_CM_128_HMAC_SHA1_80
+!
+
 ## Local Gateway Tenant (Webex Calling)
 
 voice class tenant 100
