@@ -8,7 +8,7 @@ I recently built a full voice integration lab combining:
 🔹 Webex Calling (sandbox trial)  
 🔹 Twilio Elastic SIP Trunk (free account)  
 
-The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication between Webex Calling and the PSTN via Twilio.  
+The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication between Webex Calling and Twilio.  
 
 ![LAB Topology](images/topology.jpg)
 
