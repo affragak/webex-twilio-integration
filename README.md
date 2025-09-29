@@ -16,6 +16,10 @@ The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication betwee
 ### Webex Control Hub  
 ![PSTN & Routing -> Gateway Configurations -> Trunk](images/webextrunk.jpg)
 
+### Twilio PSTN  
+![Twilio PSTN](images/twilio.png)
+
+
 ### Reference Guides
 
 Here are some helpful references for this project:
