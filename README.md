@@ -10,6 +10,7 @@ I recently built a full voice integration lab combining:
 
 The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication between Webex Calling and Twilio.  
 
+### LAB Topology  
 ![LAB Topology](images/topology.jpg)
 
 ### Webex Control Hub  
