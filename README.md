@@ -12,6 +12,8 @@ The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication betwee
 
 ![LAB Topology](images/topology.jpg)
 
+### Webex Control Hub  
+![PSTN & Routing -> Gateway Configurations -> Trunk](images/webextrunk.jpg)
 
 ### Reference Guides
 

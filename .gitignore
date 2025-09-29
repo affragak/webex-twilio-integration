@@ -1,1 +1,3 @@
-images/
+images/*
+!images/topology.jpg
+!images/webextrunk.jpg
