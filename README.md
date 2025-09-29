@@ -17,13 +17,13 @@ The setup uses SIP/TLS and SRTP to ensure secure end-to-end communication betwee
 ![PSTN & Routing -> Gateway Configurations -> Trunk](images/webextrunk.jpg)
 
 ### Twilio PSTN  
-![Twilio PSTN](images/twilio1.png)
+![Twilio PSTN](images/twilio1.jpg)
   
-![Twilio PSTN](images/twilio2.png)
+![Twilio PSTN](images/twilio2.jpg)
   
-![Twilio PSTN](images/twilio3.png)
+![Twilio PSTN](images/twilio3.jpg)
   
-![Twilio PSTN](images/twilio4.png)
+![Twilio PSTN](images/twilio4.jpg)
 
 
 ### Reference Guides
